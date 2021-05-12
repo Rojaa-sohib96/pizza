@@ -1,0 +1,467 @@
+@import "fonts.css";
+
+:root{
+    --green: #68bf3b;
+    --grey: #bdbdbd;
+    --white: #fff;
+    --grey2: #a6a6a6;
+    --col-1: calc(100% / 12);
+    --col-2: calc(100% / 12*2);
+    --col-3: calc(100% / 12*3);
+    --col-4: calc(100% / 12*4);
+    --col-5: calc(100% / 12*5);
+    --col-6: calc(100% / 12*6);
+    --col-7: calc(100% / 12*7);
+    --col-8: calc(100% / 12*8);
+    --col-9: calc(100% / 12*9);
+    --col-10: calc(100% / 12*10);
+    --col-11: calc(100% / 12*11);
+    --col-12: 100%
+}
+.col-1{
+    width: var(--col-1);
+    padding: 0 15px;
+}
+.col-2{
+    width: var(--col-2);
+    padding: 0 15px;
+}
+.col-3{
+    width: var(--col-3);
+    padding: 0 15px;
+}
+.col-4{
+    width: var(--col-4);
+    padding: 0 15px;
+}
+.col-5{
+    width: var(--col-5);
+    padding: 0 15px;
+}
+.col-6{
+    width: var(--col-6);
+    padding: 0 15px;
+}
+.col-7{
+    width: var(--col-7);
+    padding: 0 15px;
+}
+.col-8{
+    width: var(--col-8);
+    padding: 0 15px;
+}
+.col-9{
+    width: var(--col-9);
+    padding: 0 15px;
+}
+.col-10{
+    width: var(--col-10);
+    padding: 0 15px;
+}
+.col-11{
+    width: var(--col-11);
+    padding: 0 15px;
+}
+.col-12{
+    width: var(--col-12);
+    padding: 0 15px;
+}
+.col{
+    width: auto;
+    padding: 0 15px;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-start{
+    align-items: flex-start;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-grow-1{
+    flex-grow: 1;
+}
+.d-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.mh-100{
+    min-height: 100vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "RW";
+    text-decoration: none;
+    list-style: none;
+    color: var(--white);
+    box-sizing: border-box;
+}
+.header {
+    background: url(../images/header_bg.jpg) center center / cover;
+    background-attachment: fixed;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.header-nav{
+    margin-top: 50px;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.header-nav__link{
+    font-weight: 400;
+    font-size: 24px;
+}
+.header-nav__link1{
+    font-weight: 400;
+    font-size: 16px;
+    background: var(--green);
+    margin-left: 50px;
+    padding: 17px 28px;
+    border-radius: 25px;
+}
+.header_all{
+    font-weight: 900;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.header_pizza{
+    font-weight: 900;
+    font-size: 72px;
+    margin-top: 33px;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+}
+.header__price{
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.header__menu{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 18px 36px 17px 35px;
+    background: linear-gradient(to top, #3d8601, #6ad017);
+    border-radius: 25px;
+}
+.twenty{
+    margin-top: 43px;
+}
+.picture{
+    position: relative;
+}
+.twenty__1{
+    font-weight: 700;
+    font-size: 18px;
+    background: var(--green);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding: 20px 10px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+.online{
+    margin-top: 29px;
+    margin-left: 30px;
+    width: 100%;
+}
+.pepper h6{
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--grey2);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.pepper p{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--grey2);
+    margin-top: 8px;
+}
+.number{
+    margin-top: 17px;
+}
+.number__2{
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--grey2);
+}
+.number__3{
+    margin: 12px 1px 0 10px;
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--grey2);
+}
+.order{
+    padding: 18px 28px 17px 28px;
+    background: linear-gradient(to top, #3d8601, #6ad017);
+    border-radius: 25px;
+    margin-top: 28px;
+}
+.texno{
+    margin: 10px 0 67px 10px;
+}
+.img{
+    
+    object-fit: contain;
+}
+.title{
+    margin-left: 30px;
+}
+.texno__title{
+    margin: 109px 0 57px 4px;
+    color: var(--green);
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.texno__work{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--grey2);
+    line-height: 36px;
+}
+.texno__totti{
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--grey2);
+    margin-right: 38px;
+}
+.one{
+    font-weight: 700;
+    font-size: 36px;
+    color: rgba(106, 208, 23, 0.2);
+    text-transform: uppercase;
+}
+.girl{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.girls img{
+    width: 100%;
+}
+.name1{
+    margin-top: 31px;
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--grey2);
+    text-transform: uppercase;
+}
+.story{
+    color: var(--grey2);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+footer{
+    background: #060503;
+}
+.footer{
+    padding-top: 30px;
+    margin-bottom: 61px;
+}
+.footer__pizza{
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.footer__num{
+    font-weight: 400;
+    font-size: 24px;
+    margin-right: 50px;
+}
+.footer__tel{
+    padding: 18px 27px 17px 26px;
+    background: var(--green);
+    border-radius: 25px;
+}
+.proweb{
+    width: 100%;
+    font-weight: 100;
+    font-size: 16px;
+    margin-bottom: 54px;
+}
+
+@media(max-width: 991px){
+    .texno{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0;
+    }
+    .texno__title{
+        margin: 15px 0;
+        font-size: 25px;
+    }
+    .texno__work{
+        line-height: 25px;
+    }
+    .written{
+        justify-content: center;
+    } 
+    .header_pizza{
+        font-size: 50px;
+    }
+    .title{
+        margin-left: 0;
+    }
+    .pepper h6, .number__2{
+        font-size: 25px;
+    }
+    .one1{
+        text-align: center;
+    }
+    .twenty{
+        width: 50%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .picture, .picture img{
+        width: 100%;
+    }
+    .pepper1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+    }
+    .number{
+       align-items: center;
+       margin-top: 30px;
+    }
+}
+@media(max-width: 767px){
+    .girl1{
+        display: flex;
+        justify-content: center;
+    }
+    .girl{
+        width: 70%;
+        margin: 25px 0;
+    }
+}
+@media(max-width: 660px){
+    .header-nav-title{
+        align-items: center;
+    }
+    .header_pizza{
+        display: block;
+        margin: 20px 0;
+    }
+    .header__menu{
+        margin-top: 25px;
+    }
+    .header-nav{
+        width: 100%;
+        flex-direction: column;
+    }
+    .header-nav__links{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-nav__link1{
+        display: block;
+        margin: 20px 0;
+        margin-left: 0; 
+    }
+     .logo{
+         margin-bottom: 30px;
+     }
+     .footer{
+         flex-direction: column;
+     }
+     .footer-tel{
+         flex-direction: column;
+         margin-top: 20px;
+     }
+     .footer__num{
+         margin-right: 0;
+     }
+     .footer__tel{
+         display: block;
+         margin-top: 20px;
+     }
+     .twenty{
+        width: 80%;
+    }   
+    .product-1{
+        display: flex;
+        justify-content: center;
+    } 
+}
+@media(max-width: 480px){
+    .header_pizza{
+        font-size: 40px;
+    }
+    .texno__title{
+        font-size: 20px;
+    }
+    .texno__work{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .texno__totti{
+        margin-right: 0;
+    }
+    .written{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .written-img{
+        margin-top: 20px;
+    }
+    .proweb{
+        text-align: center;
+    }
+    .img{
+        width: 80%;
+    }
+}
+@media(max-width: 390px){
+    .header_pizza{
+        font-size: 30px;
+    }
+    .texno__title{
+        font-size: 18px;
+    }
+    .texno__work{
+        font-size: 14px;
+    }
+    .pepper h6{
+        font-size: 20px;
+    }
+    .header_all{
+        font-size: 16px;
+    }
+}
